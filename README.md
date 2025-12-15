@@ -28,7 +28,7 @@ python run.py
 ### 3. Citation
 
 Please cite our paper if you find the work useful:
-
+```
 @inproceedings{deng2025find,
 author = {Deng, Shanghui and Zheng, Xiao and Tang, Chang and Sun, Kun and Liu, Yuanyuan and Liu, Xinwang},
 title = {Find True Collaborators: Banzhaf Index-based Cross View Alignment for Partially View-aligned Clustering},
@@ -42,3 +42,4 @@ booktitle = {Proceedings of the 33rd ACM International Conference on Multimedia}
 pages = {2447–2456},
 numpages = {10}
 }
+```
