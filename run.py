@@ -193,7 +193,7 @@ if __name__ == '__main__':
     parser.add_argument('--lr_train', default=0.0007, type=float, help='choose from [0.0001~0.001]')
     parser.add_argument('--batch_size', default=256, type=int, help='choose from [512, 1024, 2048]')  # fix
     # Data
-    parser.add_argument('--dataset', default='DHA', type=str, help='choose dataset')
+    parser.add_argument('--dataset', default='Wiki_fea', type=str, help='choose dataset')
     parser.add_argument('--unalign_ratio', default=1, type=float,help='unalginment ratio')
     parser.add_argument('--main_view', default=1, type=int,   help='main view to obtain the final clustering assignments, from[0, 1]')
     # Train
