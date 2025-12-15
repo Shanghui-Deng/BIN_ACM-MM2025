@@ -3,6 +3,9 @@
 > **Auhtors:**
 Shanghui Deng, Xiao Zheng, Chang Tang, Kun Sun, Yuanyuan Liu, Xinwang Liu
 
+> **Published:**
+Proceedings of the ACM International Conference on Multimedia
+
 This repository contains simple pytorch implementation of our paper [BIN](https://dl.acm.org/doi/abs/10.1145/3746027.3754826)
 
 ### 1. Overview
