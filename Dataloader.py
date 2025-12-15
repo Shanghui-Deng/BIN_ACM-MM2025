@@ -26,7 +26,7 @@ class MultiViewDataset(Dataset):
 
 def MultiViewDatasetLoader(args):
     data = []
-    mat = sio.loadmat('/home/shanghui/dsh/datasets/MVC/'+args.dataset+'.mat')
+    mat = sio.loadmat('./dataset/'+args.dataset+'.mat')
     scaler = preprocessing.MinMaxScaler()
     data.append(scaler.fit_transform(mat['X'][0][0]).astype(np.float32))
     data.append(scaler.fit_transform(mat['X'][0][1]).astype(np.float32))
