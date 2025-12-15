@@ -11,6 +11,34 @@ This repository contains simple pytorch implementation of our paper [BIN](https:
   <img src="assest/BIN.png"/><br/>
 </p>
 
-Framework overview of BIN. We first encode the misaligned multi-view data into view-specific latent spaces. Next, we model the samples as game players and optimize collaboration using three loss terms: Banzhaf gain loss $$\mathcal{L}_{\mathfrak{B}}$$, contrast loss $$\mathcal{L}_C$$, and reconstruction loss $$\mathcal{L}_{rec}$$. Based on this, we solve the optimal matching problem to effectively pair the samples, enabling cross-view fusion for the final clustering.
+Framework overview of BIN. We first encode the misaligned multi-view data into view-specific latent spaces. Next, we model the samples as game players and optimize collaboration using three loss terms: Banzhaf gain loss, contrast loss, and reconstruction loss. Based on this, we solve the optimal matching problem to effectively pair the samples, enabling cross-view fusion for the final clustering.
 
 
+### 2. Usage
+#### Clone this pro
+```
+git clone https://github.com/Shanghui-Deng/BIN_ACM-MM2025.git
+```
+
+#### Example command
+```
+python run.py
+```
+
+### 3. Citation
+
+Please cite our paper if you find the work useful:
+
+@inproceedings{deng2025find,
+author = {Deng, Shanghui and Zheng, Xiao and Tang, Chang and Sun, Kun and Liu, Yuanyuan and Liu, Xinwang},
+title = {Find True Collaborators: Banzhaf Index-based Cross View Alignment for Partially View-aligned Clustering},
+year = {2025},
+isbn = {9798400720352},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3746027.3754826},
+doi = {10.1145/3746027.3754826},
+booktitle = {Proceedings of the 33rd ACM International Conference on Multimedia},
+pages = {2447–2456},
+numpages = {10}
+}
